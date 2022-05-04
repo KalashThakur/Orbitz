@@ -7,8 +7,8 @@ select, input{
     border-radius: 4px;
 }
 
-button{
-    padding: 13px;
+a{
+    padding: 11px;
     width: 25%;
     background-color: #c83259;  
     color: #fff;
@@ -16,6 +16,7 @@ button{
     font-size: 18px;
     border: 0px;
     border-radius: 4px;
+    text-decoration: none;
 
 }
 

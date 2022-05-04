@@ -1,7 +1,8 @@
 import React from 'react'
 import { R1Div, R7div, R7inner1, R7inner2, MainDiv, R6div, R1inner, R2div, R2inner1, R2inner2, R2inner3, R2inner4, H3, P, R3div, R3inner1, R3inner2, H3tag, H3Tag, Ptag, R4div, R4inner1, R5div, R5inner1, R5inner2 } from './Home.styled'
 import "./Home.css"
-import Footer from './Footer'
+// import Footer from './Footer'
+
 const Home = () => {
   return (
       <>
@@ -135,7 +136,7 @@ const Home = () => {
 
                  <h3>Text yourself a download link</h3>
 
-            <form action="" onSubmit="https://play.google.com/store/apps/details?id=com.orbitz">
+            {/* <form action="" onSubmit="https://play.google.com/store/apps/details?id=com.orbitz"> */}
                  <select name="" id="" required>
                      <option value="Turkey">Turkey +90</option>
                      <option value="Sweden">Sweden +46</option>
@@ -151,14 +152,14 @@ const Home = () => {
 
                  <input type="number" required placeholder='Phone number' />
 
-                 <button onClick="https://play.google.com/store/apps/details?id=com.orbitz">Get the app</button>
-                 </form>
+                 <a href="https://play.google.com/store/apps/details?id=com.orbitz">Get the app</a>
+                 {/* </form> */}
 
                  <p style={{color: "gray", fontSize: "14px", paddingTop: "22px"}}>By providing your number, you agree to receive a one-time automated text message with a link to get the app. Standard text message rates may apply.</p>
              </R7inner2>
          </R7div>
 {/* **************************FOOTER******************************* */}
-        <Footer />
+        {/* <Footer /> */}
       </MainDiv> 
       </>
     

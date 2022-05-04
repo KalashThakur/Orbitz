@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const MainDiv = styled.div`
    border: 2px solid black;
-   height: 3000px;
+   height: 2000px;
    width: 75%;
    margin: auto;
    margin-top: 70px;
