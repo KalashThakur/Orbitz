@@ -1,0 +1,21 @@
+.check {
+  display: flex;
+  margin-left: 500px;
+}
+input[type='text'] {
+  width: 30%;
+  padding: 18px 25px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type='password'] {
+  width: 30%;
+  padding: 18px 25px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.Continue {
+  background-color: rgb(200, 50, 89);
+  width: 30%;
+ padding: 18px ;
+}
