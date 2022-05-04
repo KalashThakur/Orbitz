@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const MainDiv = styled.div`
    border: 2px solid black;
-   height: 1800px;
+   height: 3000px;
    width: 75%;
    margin: auto;
    margin-top: 70px;
@@ -153,7 +153,7 @@ export const R4div = styled.div`
    height: 100px;
    display: flex;
    gap: 12px;
-   margin-bottom: 20px;
+   margin-bottom: 40px;
    margin-top: 10px;
    `;
 
@@ -167,3 +167,82 @@ export const R4inner1 = styled.div`
    padding-bottom: 8px;
    padding-left: 8px;
 `;
+
+export const H3Tag = styled.h3`
+   color: white;
+    position: relative;
+   top: 190px;
+`;
+
+export const R5div = styled.div`
+   /* box-sizing: border-box; */
+   border: 2px solid blue;
+   height: 280px;
+   display: flex;
+   gap: 20px;
+   margin-bottom: 40px;
+   margin-top: 10px;
+   `;
+
+export const R5inner1 = styled.div`
+/* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
+   border: 2px solid red;
+   padding: 10px;
+   text-align: left;
+   height: 260px;
+   width: 50%;
+   background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/18/ORB_Blog_NationalParks_imgB_1199x399_20211117.jpg");
+`
+
+export const R5inner2 = styled.div`
+/* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
+   border: 2px solid red;
+   padding: 10px;
+   text-align: left;
+   height: 260px;
+   width: 50%;
+   background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/18/ORB_Blog_RoadTrips_imgB_1199x399_20211117.jpg");
+`
+
+export const R6div = styled.div`
+   /* box-sizing: border-box; */
+   border: 2px solid blue;
+   height: 120px;
+   width: 75%;
+   margin: auto;
+   margin-bottom: 40px;
+   margin-top: 70px;
+   /* background-image: url("https://tpc.googlesyndication.com/simgad/10056509806482740393?") */
+   `;
+
+export const R7div = styled.div`
+/* box-sizing: border-box; */
+border: 2px solid blue;
+height: 340px;
+display: flex;
+gap: 20px;
+margin-bottom: 40px;
+margin-top: 10px;
+`;
+
+export const R7inner1 = styled.div`
+/* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
+   border: 2px solid red;
+   text-align: left;
+   /* height: 260px; */
+   width: 32%;
+   /* box-sizing: border-box; */
+   /* background-image: url("https://a.travel-assets.com/mad-service/footer/marquee/ORB_App_Footer_v1.jpg"); */
+   
+`
+
+export const R7inner2 = styled.div`
+/* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
+   border: 2px solid red;
+   padding: 10px;
+   text-align: left;
+   /* height: 260px; */
+   width: 67%;
+   
+`
+

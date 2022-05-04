@@ -1,6 +1,6 @@
 import React from 'react'
-import { R1Div, MainDiv, R1inner, R2div, R2inner1, R2inner2, R2inner3, R2inner4, H3, P, R3div, R3inner1, R3inner2, H3tag, Ptag, R4div, R4inner1 } from './Home.styled'
-
+import { R1Div, R7div, R7inner1, R7inner2, MainDiv, R6div, R1inner, R2div, R2inner1, R2inner2, R2inner3, R2inner4, H3, P, R3div, R3inner1, R3inner2, H3tag, H3Tag, Ptag, R4div, R4inner1, R5div, R5inner1, R5inner2 } from './Home.styled'
+import "./Home.css"
 const Home = () => {
   return (
       <>
@@ -101,14 +101,61 @@ const Home = () => {
 
 {/* ********************************************************* */}
 
-           <R3div>
-               <R3inner1>
-                  <H3tag >Explore local getaways</H3tag>
-                  <Ptag>Get out and explore, and stay close to home with a road trip.</Ptag>
-               </R3inner1>
-               <R3inner2></R3inner2>
-           </R3div>
+               <h2 style={{textAlign: "left", marginBottom: "0px"}}>Traveling tips</h2>
+           <R5div>
+               <R5inner1>
+                  <H3tag >National Parks</H3tag>
+                  <Ptag>There's plenty to keep you busy.</Ptag>
+               </R5inner1>
+               <R5inner2>
+                  <H3tag >The perfect road trip</H3tag>
+                  <Ptag>Find an adventure for every season.</Ptag>
+               </R5inner2>
+           </R5div>
+{/* ********************************************************* */}
 
+           <R6div>
+               <img width="100%" height="100px" src="https://tpc.googlesyndication.com/simgad/10056509806482740393?" alt="" />
+           </R6div>
+
+{/* ********************************************************* */}
+
+         <R7div>
+             <R7inner1 >
+                 <img width="360px" height="340px" src="https://a.travel-assets.com/mad-service/footer/marquee/ORB_App_Footer_v1.jpg" alt="" />
+             </R7inner1>
+             <R7inner2>
+                 <h2>Rewards are waiting for you in the Orbitz app</h2>
+                 <ul type="square">
+                     <li>Earn 4% back when you book your hotel in app, vs. 3% on site</li>
+                     <li>Get flight status and gate number notifications</li>
+                     <li>Have questions about your stay? Message your hotel right in the app</li>
+                 </ul>
+
+                 <h3>Text yourself a download link</h3>
+
+            <form action="" onSubmit="https://play.google.com/store/apps/details?id=com.orbitz">
+                 <select name="" id="" required>
+                     <option value="Turkey">Turkey +90</option>
+                     <option value="Sweden">Sweden +46</option>
+                     <option value="Nepal">Nepal +997</option>
+                     <option value="India">India +91</option>
+                     <option value="Peru">Peru +51</option>
+                     <option value="thailand">thailand +66</option>
+                     <option value="Poland">Poland +41</option>
+                     <option value="Yemen">Yemen +967</option>
+                     <option value="Iran">Iran +98</option>
+                     <option value="Iraq">Iraq +97</option>
+                 </select>
+
+                 <input type="number" required placeholder='Phone number' />
+
+                 <button onClick="https://play.google.com/store/apps/details?id=com.orbitz">Get the app</button>
+                 </form>
+
+                 <p style={{color: "gray", fontSize: "14px", paddingTop: "22px"}}>By providing your number, you agree to receive a one-time automated text message with a link to get the app. Standard text message rates may apply.</p>
+             </R7inner2>
+         </R7div>
       </MainDiv> 
       </>
     
