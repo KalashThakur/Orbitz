@@ -4,6 +4,7 @@ import Home from './components/Home';
 import NationalParks from './components/NationalParks';
 import F1 from './components/F1';
 import Description from './components/Description';
+import PlayStore from './components/PlayStore';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       {/* <NationalParks /> */}
       {/* <F1 /> */}
       <Description />
+      {/* <PlayStore /> */}
     </div>
   );
 }
