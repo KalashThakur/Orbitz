@@ -13,7 +13,7 @@ const F1 = () => {
                <p>Maybe you weren’t planning on booking your next vacation today. But, sometimes the best things in life are unplanned. After all, what’s better than an impromptu getaway? An impromptu getaway that costs you less! Free cancellation on most hotels. Some hotels require you to cancel more than 24 hours before check-in. Please check the site for details.</p>
            </div>
            <br/>
-               <h2>Last-minute hotel deals</h2>
+               <h1>Last-minute hotel deals</h1>
            <div className='div2'>
                <div>
                    <img src="https://images.trvl-media.com/hotels/5000000/4190000/4182800/4182702/de234929_b.jpg" alt="" />
@@ -57,7 +57,7 @@ const F1 = () => {
 
 
            <br/><br />
-               <h2>Last-minute vacation rental deals</h2>
+               <h1>Last-minute vacation rental deals</h1>
            <div className='div2'>
                <div>
                    <img src="https://images.trvl-media.com/hotels/18000000/17870000/17863500/17863402/bc978970_b.jpg" alt="" />

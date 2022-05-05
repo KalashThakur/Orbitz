@@ -1,0 +1,111 @@
+[
+    {
+        "id": 1,
+        "title": "YOTEL New York Times Square",
+        "imgURL": "https://images.trvl-media.com/hotels/5000000/4190000/4182800/4182702/de234929.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "place": "New York",
+        "rating": "3.7/5",
+        "review": "Good (3,577 reviews)",
+        "price": 11400
+    },
+    {
+        "id": 2,
+        "title": "Westage New York Grand Central",
+        "imgURL": "https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/1000000/20000/11700/11606/9a6d82ae_b.jpg",
+        "place": "New York",
+        "rating": "4.1/5",
+        "review": "Very Good (3,577 reviews)",
+        "price": 16872
+    },
+    {
+        "id": 3,
+        "title": "Hyatt Place New York City/Times Square",
+        "imgURL": "https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/38000000/37850000/37842600/37842570/740e8afa_b.jpg",
+        "place": "New York",
+        "rating": "3.9/5",
+        "review": "Good (940 reviews)",
+        "price": 15124
+    },
+    {
+        "id": 4,
+        "title": "Row NYC",
+        "imgURL": "https://images.trvl-media.com/hotels/1000000/30000/25100/25033/47a9e846.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "place": "New York",
+        "rating": "3.5/5",
+        "review": "Good (940 reviews)",
+        "price": 10260
+    },
+    {
+        "id": 5,
+        "title": "Pod Times Square",
+        "imgURL": "https://images.trvl-media.com/hotels/20000000/19690000/19681400/19681371/395c35d8.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "place": "New York",
+        "rating": "4.3/5",
+        "review": "Excellent (3427 reviews)",
+        "price": 9804
+    },
+    {
+        "id": 6,
+        "title": "Cachet Boutique New York",
+        "imgURL": "https://images.trvl-media.com/hotels/5000000/4820000/4818600/4818574/dd414e5f.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "place": "New York",
+        "rating": "3.9/5",
+        "review": "Very Good (3,577 reviews)",
+        "price": 15504
+    },
+    {
+        "id": 7,
+        "title": "Doubletree by Hilton New York Times Square South",
+        "imgURL": "https://images.trvl-media.com/hotels/37000000/36720000/36712900/36712878/ab68ed41.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "place": "New York",
+        "rating": "4.1/5",
+        "review": "Very Good (1140 reviews)",
+        "price": 13300
+    },
+    {
+        "id": 8,
+        "title": "Pod Times Square",
+        "imgURL": "https://images.trvl-media.com/hotels/1000000/110000/104200/104193/0db0d221.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "place": "New York",
+        "rating": "3.5/5",
+        "review": "Good (940 reviews)",
+        "price": 15504
+    },
+    {
+        "id": 9,
+        "title": "Hyatt Grand Central New York",
+        "imgURL": "https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/1000000/30000/23700/23677/08cbe7ac_b.jpg",
+        "place": "New York",
+        "rating": "3.8/5",
+        "review": "Good (1923 reviews)",
+        "price": 22192
+    },
+    {
+        "id": 10,
+        "title": "",
+        "imgURL": "https://images.trvl-media.com/hotels/1000000/20000/11700/11606/9a6d82ae.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "place": "New York",
+        "rating": "3.5/5",
+        "review": "Good (1240 reviews)",
+        "price": 13300
+    },
+    {
+        "id": 11,
+        "title": "",
+        "imgURL": "https://images.trvl-media.com/hotels/6000000/5960000/5950500/5950418/1205690d.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "place": "New York",
+        "rating": "3.5/5",
+        "review": "Good (1240 reviews)",
+        "price": 14539
+    },
+    {
+        "id": 12,
+        "title": "",
+        "imgURL": "https://images.trvl-media.com/hotels/1000000/30000/26700/26641/f37b16f1.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "place": "New York",
+        "rating": "3.5/5",
+        "review": "Good (940 reviews)",
+        "price": 15504
+    }
+
+]

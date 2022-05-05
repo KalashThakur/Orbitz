@@ -1,6 +1,6 @@
 .upperDiv{
     border: 2px solid black;
-    height: 2400px;
+    height: 2500px;
     width: 75%;
     margin: auto;
 }
@@ -27,7 +27,7 @@ p{
 
 }
 
-.div2 ~ div{
+.div2 > div{
     background-color: #fff;
 
 }
@@ -67,7 +67,7 @@ span{
     font-weight: bold;
 }
 
-h2{
+h1{
     text-align: left;
 }
 
@@ -77,7 +77,7 @@ h2{
 }
 
 #atag{
-    background-color: #fff;
+    background-color: #ededed;
     color: rgb(32, 116, 123);
     text-decoration: underline;
     font-size: 16px;
