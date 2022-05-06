@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 import data from "../data.json";
+import { saveData } from "./des";
 import "./Desc.css";
 import PlayStore from "./PlayStore";
 
@@ -10,15 +11,15 @@ const description = () => {
 
 //   const [cart, setCart] = useState([])
 
-  const handleClick = () => {
-    useEffect(() => {
-        localStorage.setItem("cart", JSON.stringify(data));
-      },[data]);
-  };
+//   const handleClick = () => {
+//     useEffect(() => {
+//         localStorage.setItem("cart", JSON.stringify(data));
+//       },[data]);
+//   };
 
-// const handleClick = (items,data) => {
-//     localStorage.setItem("items", JSON.stringify(data));
-// }
+const handleClick = (key) => {
+    saveData(key,data)
+}
 
 
   return (
