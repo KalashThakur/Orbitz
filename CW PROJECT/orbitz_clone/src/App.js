@@ -6,6 +6,7 @@ import F1 from './components/F1';
 import Description from './components/Description';
 import PlayStore from './components/PlayStore';
 import Cart from './components/Cart';
+import Checkout from './components/Checkout';
 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
       {/* <F1 /> */}
       {/* <Description /> */}
       {/* <PlayStore /> */}
-      <Cart />
+      {/* <Cart /> */}
+      <Checkout />
     </div>
   );
 }

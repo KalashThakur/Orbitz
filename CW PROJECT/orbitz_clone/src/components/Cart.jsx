@@ -1,14 +1,15 @@
-import React from 'react'
+import React from 'react';
+import "./Cart.css"
 
 const Cart = () => {
 
    let cartItems =  JSON.parse(localStorage.getItem("cart"))
    console.log('cartItems:', cartItems)
    return (
-       <div>
+       <div id="div">
         <h1>CART</h1>
         
-        <div id="maindiv">
+        <div id='mainDiv'>
 
         <div className="container">
           {cartItems.map((elem) => {
