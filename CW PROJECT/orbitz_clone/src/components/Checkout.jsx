@@ -6,10 +6,10 @@ const Checkout = () => {
   console.log("cartItems:", cartItems);
 
   return (
-    <>
-      <div id="div">
-        <h1>Checkout</h1>
-        <div id={styled.main}>
+    <div id={styled.div}>
+      <div id={styled.div} >
+        {/* <h1>Checkout</h1> */}
+        <div id={styled.main} className={styled.div}>
           <div id={styled.mainDiv}>
             <div className="container">
               {cartItems.map((elem) => {
@@ -49,31 +49,6 @@ const Checkout = () => {
           <div id={styled.payment_detail}>
             <h2>Payment Detail</h2>
 
-            <div id="total2">
-              <div>Item Total</div>
-              <div id="amount2"></div>
-            </div>
-
-            <div id="total3">
-              <div>Extra 10% Off (New Customer)</div>
-              <div>-₹907</div>
-            </div>
-
-            <div id="total3">
-              <div>Extra 8% Off (Spring Savings Sale)</div>
-              <div>-₹725</div>
-            </div>
-
-            <div id="total4">
-              <div>Standard Shipping (Signature)</div>
-              <div>₹782</div>
-            </div>
-
-            <div id="total4">
-              <div>Freight Surcharge</div>
-              <div>₹317</div>
-            </div>
-
             <div id="total5">
               <div>Order Total</div>
               <div id="final_price">0</div>
@@ -103,8 +78,18 @@ const Checkout = () => {
           </form>
         </div>
 
+
+
+
+
+       
+            <h3>PAYMENT</h3>
+
+           
+
+
         
-    </>
+    </div>
   );
 };
 
