@@ -12,7 +12,7 @@ import Checkout from './components/Checkout';
 function App() {
   return (
     <div className="App">
-      {/* <Home /> */}
+      <Home />
       {/* <NationalParks /> */}
       {/* <F1 /> */}
       {/* <Description /> */}
