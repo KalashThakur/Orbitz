@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Home />
-      {/* <NationalParks /> */}
+      <NationalParks />
       {/* <F1 /> */}
       {/* <Description /> */}
       {/* <PlayStore /> */}
