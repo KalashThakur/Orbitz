@@ -14,7 +14,7 @@ const description = () => {
   const handleClick = () => {
     // useEffect(() => {
         localStorage.setItem("cart", JSON.stringify(data));
-    //   },[data]);
+      // },[data]);
   };
 
 // const handleClick = (key,data) => {
