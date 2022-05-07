@@ -11,15 +11,15 @@ const description = () => {
 
 //   const [cart, setCart] = useState([])
 
-//   const handleClick = () => {
-//     useEffect(() => {
-//         localStorage.setItem("cart", JSON.stringify(data));
-//       },[data]);
-//   };
+  const handleClick = () => {
+    // useEffect(() => {
+        localStorage.setItem("cart", JSON.stringify(data));
+    //   },[data]);
+  };
 
-const handleClick = (key) => {
-    saveData(key,data)
-}
+// const handleClick = (key,data) => {
+//     saveData("cart",data)
+// }
 
 
   return (

@@ -5,6 +5,7 @@ import NationalParks from './components/NationalParks';
 import F1 from './components/F1';
 import Description from './components/Description';
 import PlayStore from './components/PlayStore';
+import Cart from './components/Cart';
 
 
 function App() {
@@ -13,8 +14,9 @@ function App() {
       {/* <Home /> */}
       {/* <NationalParks /> */}
       {/* <F1 /> */}
-      <Description />
+      {/* <Description /> */}
       {/* <PlayStore /> */}
+      <Cart />
     </div>
   );
 }
