@@ -4,7 +4,7 @@ import HotelCard from "../HotelCard/HotelCard";
 import { HotelListFilters } from "../Filters/HotelListFilters";
 import Sort from "../Sort/Sort";
 import styled from "styled-components";
-import MapStatic from "../Map/MapStatic";
+
 
 const HotelsList = () => {
   const results = useSelector((state) => state.Query.result);
@@ -80,7 +80,7 @@ const HotelsList = () => {
   return (
     <Cont>
       <FilterCont>
-        <MapStatic/>
+      
         <HotelListFilters handleFilter={handleFilter} filter={filter} />
       </FilterCont>
       <div>
@@ -113,43 +113,6 @@ const HotelsList = () => {
           })
           .filter((a) => {
             return filter.Wonderful45 ? a.rating > 4.5 : a;
-          })
-          .filter((a) => {
-            return filter.PayLater
-              ? a.paymentType === "Reserve now Pay, Later"
-              : a;
-          })
-          .filter((a) => {
-            return filter.FullyRefundable
-              ? a.paymentType ===  "Fully Refundable"
-              : a;
-          })
-          .filter((a) => {
-            console.log('a:', a)
-            return filter.Hotel
-            
-              ? a.propertyType ===  "Hotel"
-              : a;
-          })
-          .filter((a) => {
-            return filter.HotelResort
-              ? a.propertyType ===  "Hotel Resort"
-              : a;
-          })
-          .filter((a) => {
-            return filter.Bed
-              ? a.propertyType === "Bed"
-              : a;
-          })
-          .filter((a) => {
-            return filter.Villa
-              ? a.propertyType ===  "Villa"
-              : a;
-          })
-          .filter((a) => {
-            return filter.Palace
-              ? a.propertyType ===  "Palace"
-              : a;
           })
           .sort((a, b) => {
             return priceSorting

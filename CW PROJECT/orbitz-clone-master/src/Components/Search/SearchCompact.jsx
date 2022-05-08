@@ -29,21 +29,18 @@ export function SearchCompact() {
             value: "Bangalore"
         },
         {
-            label: "Delhi",
-            value: "Delhi"
+            label: "Jaipur",
+            value: "Jaipur"
         },
         {
-            label: "Pune",
-            value: "Pune"
+            label: "Chennai",
+            value: "Chennai"
         },
         {
-            label: "Hyderabad",
-            value: "Hyderabad"
+            label: "Goa",
+            value: "Goa"
         },
-        {
-            label: "Mumbai",
-            value: "Mumbai"
-        }
+    
     ]
     const useStyles = makeStyles({
         checkboxes: {

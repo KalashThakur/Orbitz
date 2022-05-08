@@ -1,4 +1,3 @@
-import Map  from "../Components/Map/Map"
 import { Route, Switch } from "react-router-dom"
 import { HotelPage } from "../Components/HotelPage/HotelPage"
 import { BookingConfirmed } from "../Components/Payment/BookingConfirmedPage"
@@ -42,9 +41,7 @@ export const Routes = () => {
                     <BookingConfirmed/>
                     </div>
                 </Route>
-                <Route exact path="/map">
-                     <Map/>
-                </Route>
+                
             </Switch>
         </div>
     )

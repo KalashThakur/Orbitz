@@ -15,9 +15,8 @@ import LocalParkingIcon from '@material-ui/icons/LocalParking';
 import DeckIcon from '@material-ui/icons/Deck';
 import RoomCard from "../RoomCard/RoomCard";
 import AmenitiesCrad from '../AmenitiesCard/AmenitiesCrad'
-import MapStaticHotel1 from "../Map/MapStaticHotel1";
 import styled from "styled-components";
-import MapStaticHotel2 from "../Map/MapStaticHotel2";
+
 
 export function HotelPageData() {
     useEffect(() => {
@@ -129,7 +128,7 @@ export function HotelPageData() {
                             </div>
                             <div>
                                 <div className={styles.mapDiv}>
-                                <MapStaticHotel1 />
+                                
                                 <Address>{hotel.address}</Address>
                                 </div>
                                 <div>
@@ -161,7 +160,7 @@ export function HotelPageData() {
                                 <h3>{hotel.city}</h3>
                         <div className={styles.aboutArea}><p>Taj Mahal Tower, Mumbai is located in Colaba, a neighborhood in Mumbai, and is in the city center and by the sea. Chhatrapati Shivaji Maharaj Museum and National Centre for the Performing Arts are cultural highlights, and some of the area's notable landmarks include Gateway of India and Flora Fountain. Looking to enjoy an event or a game? See what's going on at Wankhede Stadium, or consider JioGarden for a night out.</p></div>
                             </div>
-                            <MapStaticHotel2/>
+                         
                         </div>
                         <div className={styles.subArea}>
                             <div>
