@@ -12,8 +12,8 @@ import Checkout from './components/Checkout';
 function App() {
   return (
     <div className="App">
-      {/* <Home /> */}
-      {/* <NationalParks /> */}
+      {/*<Home />}
+      {/*<NationalParks />}
       {/* <F1 /> */}
       {/* <Description /> */}
       {/* <PlayStore /> */}
