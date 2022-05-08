@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const MainDiv = styled.div`
-   border: 2px solid black;
+   /* border: 2px solid black; */
    height: 1790px;
    width: %;
    margin: auto;
@@ -19,7 +19,7 @@ export const InnerDiv = styled.div`
 
 export const R1Div = styled.div`
    /* box-sizing: border-box; */
-   border: 2px solid blue;
+   /* border: 2px solid blue; */
    height: 180px;
    display: flex;
    gap: 40px;
@@ -43,14 +43,14 @@ export const R1inner = styled.div`
 
 export const R2div = styled.div`
    /* box-sizing: border-box; */
-   border: 2px solid blue;
+   /* border: 2px solid blue; */
    display: flex;
    gap: 10px;
    `;
 
 export const R2inner1 = styled.div`
 /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
-   border: 2px solid red;
+   /* border: 2px solid red; */
    padding: 10px;
    text-align: left;
    height: 180px;
@@ -60,7 +60,7 @@ export const R2inner1 = styled.div`
 
 export const R2inner2 = styled.div`
 /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
-   border: 2px solid red;
+   /* border: 2px solid red; */
    padding: 10px;
    text-align: left;
    height: 180px;
@@ -71,7 +71,7 @@ export const R2inner2 = styled.div`
 
 export const R2inner3 = styled.div`
 /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
-   border: 2px solid red;
+   /* border: 2px solid red; */
    padding: 10px;
    text-align: left;
    height: 180px;
@@ -82,7 +82,7 @@ export const R2inner3 = styled.div`
 
 export const R2inner4 = styled.div`
 /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
-   border: 2px solid red;
+   /* border: 2px solid red; */
    padding: 10px;
    text-align: left;
    height: 180px;
@@ -105,7 +105,7 @@ export const P = styled.p`
 
 export const R3div = styled.div`
    /* box-sizing: border-box; */
-   border: 2px solid blue;
+   /* border: 2px solid blue; */
    height: 280px;
    display: flex;
    gap: 12px;
@@ -116,7 +116,7 @@ export const R3div = styled.div`
 
 export const R3inner1 = styled.div`
 /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
-   border: 2px solid red;
+   /* border: 2px solid red; */
    padding: 10px;
    text-align: left;
    height: 260px;
@@ -126,7 +126,7 @@ export const R3inner1 = styled.div`
 // explore
 export const R3inner2 = styled.div`
 /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
-   border: 0px solid red;
+   /* border: 0px solid red; */
    padding: 0px;
    text-align: left;
    height: 260px;
@@ -149,7 +149,7 @@ export const Ptag = styled.p`
 
 export const R4div = styled.div`
    /* box-sizing: border-box; */
-   border: 2px solid blue;
+   /* border: 2px solid blue; */
    height: 100px;
    display: flex;
    gap: 12px;
@@ -158,8 +158,8 @@ export const R4div = styled.div`
    `;
 
 export const R4inner1 = styled.div`
-/* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
-   border: 2px solid red;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+   /* border: 2px solid red; */
    /* padding: 10px; */
    text-align: left;
    /* height: 260px; */
@@ -176,7 +176,7 @@ export const H3Tag = styled.h3`
 
 export const R5div = styled.div`
    /* box-sizing: border-box; */
-   border: 2px solid blue;
+   /* border: 2px solid blue; */
    height: 280px;
    display: flex;
    gap: 20px;
@@ -186,7 +186,7 @@ export const R5div = styled.div`
 
 export const R5inner1 = styled.div`
 /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
-   border: 2px solid red;
+   /* border: 2px solid red; */
    padding: 10px;
    text-align: left;
    height: 260px;
@@ -196,7 +196,7 @@ export const R5inner1 = styled.div`
 
 export const R5inner2 = styled.div`
 /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
-   border: 2px solid red;
+   /* border: 2px solid red; */
    padding: 10px;
    text-align: left;
    height: 260px;
@@ -206,7 +206,7 @@ export const R5inner2 = styled.div`
 // blue-box
 export const R6div = styled.div`
    /* box-sizing: border-box; */
-   border: 2px solid blue;
+   /* border: 2px solid blue; */
    height: 0px;
    width: 0%;
    margin: auto;
@@ -217,7 +217,7 @@ export const R6div = styled.div`
 
 export const R7div = styled.div`
 /* box-sizing: border-box; */
-border: 2px solid blue;
+/* border: 2px solid blue; */
 height: 340px;
 display: flex;
 gap: 20px;
@@ -227,7 +227,7 @@ margin-top: 10px;
 
 export const R7inner1 = styled.div`
 /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
-   border: 2px solid red;
+   /* border: 2px solid red; */
    text-align: left;
    /* height: 260px; */
    width: 32%;
@@ -238,7 +238,7 @@ export const R7inner1 = styled.div`
 
 export const R7inner2 = styled.div`
 /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
-   border: 2px solid red;
+   /* border: 2px solid red; */
    padding: 10px;
    text-align: left;
    /* height: 260px; */

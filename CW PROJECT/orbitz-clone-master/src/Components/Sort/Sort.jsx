@@ -47,11 +47,7 @@ const Sort = ({handleSort}) => {
                 name: "sorts",
                 id: "sort-category",
               }}>
-              <option styles={{height:"190px"}} value="recommended">Recommended</option>
               <option styles={{height:"90px"}} value="price">Price</option>
-              <option styles={{height:"90px"}} value="pricePick">Price + our Picks</option>
-              <option styles={{height:"90px"}} value="deal">Deals</option>
-              <option styles={{height:"90px"}} value="guestRating">Guest Rating + our picks</option>
               <option styles={{height:"90px"}} value="star">Star Rating</option>
             </NativeSelect>
           </FormControl>
