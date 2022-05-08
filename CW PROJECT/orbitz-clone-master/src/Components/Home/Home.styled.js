@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const MainDiv = styled.div`
    /* border: 2px solid black; */
    height: 1790px;
-   width: %;
    margin: auto;
    margin-top: 70px;
    margin-bottom: 60px;

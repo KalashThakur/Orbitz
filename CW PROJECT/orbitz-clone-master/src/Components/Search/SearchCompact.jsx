@@ -151,7 +151,7 @@ export function SearchCompact() {
                         type="date"
                         className={classes.date}
                     variant="outlined"
-                        defaultValue="2021-08-31"
+                        defaultValue="2022-05-01"
                         InputLabelProps={{
                             shrink: true,
                         }}
@@ -164,7 +164,7 @@ export function SearchCompact() {
                         type="date"
                     className={classes.date}
                         variant="outlined"
-                        defaultValue="2021-09-03"
+                        defaultValue="2022-05-04"
                         InputLabelProps={{
                             shrink: true,
                         }}

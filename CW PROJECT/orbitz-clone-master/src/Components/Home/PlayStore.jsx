@@ -35,7 +35,7 @@ const PlayStore = () => {
 
                  <input type="number" required placeholder='Phone number' />
 
-                 <a href="https://play.google.com/store/apps/details?id=com.orbitz">Get the app</a>
+                 <a style={{backgroundColor: "#c83259"}} href="https://play.google.com/store/apps/details?id=com.orbitz">Get the app</a>
                  {/* </form> */}
 
                  <p style={{color: "gray", fontSize: "14px", paddingTop: "22px"}}>By providing your number, you agree to receive a one-time automated text message with a link to get the app. Standard text message rates may apply.</p>
