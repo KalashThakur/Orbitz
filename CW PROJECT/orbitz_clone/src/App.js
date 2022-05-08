@@ -7,6 +7,7 @@ import Description from './components/Description';
 import PlayStore from './components/PlayStore';
 import Cart from './components/Cart';
 import Checkout from './components/Checkout';
+import Navbar from './components/Navbar/Navbar'
 
 
 function App() {
@@ -18,9 +19,10 @@ function App() {
       {/* <Description /> */}
       {/* <PlayStore /> */}
       {/* <Cart /> */}
-      <Checkout />
+      <Navbar/>
+      {/*<Checkout />*/}
     </div>
-  );
+      );
 }
 
 export default App;
