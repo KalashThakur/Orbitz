@@ -106,7 +106,7 @@ const Home = () => {
 
                <h2 style={{textAlign: "left", marginBottom: "0px"}}>Traveling tips</h2>
            <R5div>
-               <R5inner1>
+               <R5inner1>     
                   <H3tag >National Parks</H3tag>
                   <Ptag>There's plenty to keep you busy.</Ptag>
                </R5inner1>
