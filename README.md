@@ -1,4 +1,4 @@
-🏨 Orbitz - clone
+🏨 Clone of the website Orbitz.com
 
 Orbitz.com is a is a travel fare aggregator website. 
 This is a group collaboration project, finished in 7 days. Strength of the members is 4. During 'Construct-week' project at Masai School this website has bsaic functionalities from SignUp/LogIn and searching the hotels and making payment.
