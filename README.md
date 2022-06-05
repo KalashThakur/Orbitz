@@ -24,17 +24,7 @@ Install this project with npm
   mpn Install
   npm run start
 Screenshots
-orbitz1
 
-orbitz2
-
-orbitz3
-
-orbitz4
-
-orbitz5
-
-orbitz6
 
 Tech Stack
 Client: React, Redux, Materia UI
