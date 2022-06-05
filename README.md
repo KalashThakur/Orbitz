@@ -7,28 +7,46 @@ This is a group collaboration project, finished in 7 days. Strength of the membe
 Deployed link
 https://bucolic-muffin-8abf9f.netlify.app/
 
-Authors
+Collaboraters
+
 @kalashthakur
+
 @channaveerpatil
+
 @manikandan
+
 @abhishekskmr44
+
 Features
+
 SignUp/LogIn
+
 Google SignUp
+
 Hotel search (based on the city)
+
 Sorting and Filtering
+
 Map
+
 Room Booking
+
 Payment (through stripe gateway)
+
 Installation
+
 Install this project with npm
 
-  mpn Install
-  npm run start
+
+mpn Install
+
+npm run start
+
 Screenshots
 
 
 Tech Stack
+
 Client: React, Redux, Materia UI
 
 Server: json file hosted on heroku
@@ -36,17 +54,31 @@ Server: json file hosted on heroku
 External Libraries used:
 
 redux
+
 react-redux
+
 material-ui
+
 axios
+
 json-server
+
 react-stripe-checkout
+
 react-google-login
+
 react-loading
+
 toastify
+
 thunk
+
 styled-components
+
 uuid
+
 Acknowledgements
+
 Images ang logos are taken from Orbitz.com
+
 All rights reserved.
