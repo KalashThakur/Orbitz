@@ -82,3 +82,16 @@ Acknowledgements
 Images ang logos are taken from Orbitz.com
 
 All rights reserved.
+
+![orbitz1](https://user-images.githubusercontent.com/20414667/172050044-e35e764a-7927-48b0-9954-8ce01968d315.JPG)
+
+![orbitz2](https://user-images.githubusercontent.com/20414667/172050145-0743c1fe-711e-44a8-8f20-27a0ec5bacf4.JPG)
+
+![Orbitz3](https://user-images.githubusercontent.com/20414667/172050192-bf69591b-e118-4b0b-a210-6ef2331ac1b4.JPG)
+
+![Orbitz4](https://user-images.githubusercontent.com/20414667/172050261-60549b84-5cb3-42db-9d9e-669d23d2b52d.JPG)
+
+
+
+
+
