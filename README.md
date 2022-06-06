@@ -47,7 +47,7 @@ Screenshots
 
 Tech Stack
 
-Client: React, Redux, Materia UI
+Client: React, Redux, Material UI
 
 Server: json file hosted on heroku
 
@@ -69,13 +69,9 @@ react-google-login
 
 react-loading
 
-toastify
-
 thunk
 
 styled-components
-
-uuid
 
 Acknowledgements
 
