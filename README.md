@@ -3,7 +3,7 @@
 hosted link of the project https://bucolic-muffin-8abf9f.netlify.app/
 
 Orbitz.com is a is a travel fare aggregator website. 
-This is a group collaboration project, finished in 7 days. Strength of the members is 4. During 'Construct-week' project at Masai School this website has bsaic functionalities from SignUp/LogIn and searching the hotels and making payment.
+This is a group collaboration project, finished in 7 days. Strength of the members is 4. During 'Construct-week' project at Masai School this website has basic functionalities from SignUp/LogIn and searching the hotels and making payment.
 
 Deployed link
 https://bucolic-muffin-8abf9f.netlify.app/
